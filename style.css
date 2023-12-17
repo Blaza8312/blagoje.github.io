@@ -1,0 +1,227 @@
+body {
+    margin: auto;
+    padding: 0px;
+}
+
+header {
+ height: 650px;
+ width: 100%;
+ background-image: url("images/sven-mieke-MsCgmHuirDo-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size:28px;
+ text-transform: uppercase;
+ font-family:sans-serif;
+ color: white;
+ 
+ 
+}
+
+nav {
+
+
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+    
+}
+
+li {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color:lightblue;
+    transition: 0.3 ease;
+}
+
+#oblastJedan {
+
+    margin-top: 50px;
+    height: 700px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2 {
+  
+    font-size: 35px;
+    font-family: sans-serif;
+    
+    
+}
+p {
+line-height: 45px;
+font-size: 24px;
+
+
+}
+
+#oblastDva {
+  
+    margin-top:50px;
+    background-color: lightblue;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 29px;
+}
+
+img {
+
+    height:350px;
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+img:hover {
+
+    opacity: 0.5;
+}
+
+footer {
+    margin-top:50px;
+    background-color:black;
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color:white;
+}
+
+form {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .kontakt {
+
+    font-size: 35px;
+    font-family: sans-serif;
+    
+  }
+
+  
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+
+
+body {
+    margin:auto;
+    padding:auto;
+
+}
+
+header {
+
+    height:50px;
+    width:100%
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+}
+
+}
+
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+ 
+  .animated-element {
+    width: 100%;
+    height: 700px;
+    background-color: lightblue;;
+    animation: slideIn 1s ease-in-out; 
+  }
+
+  .trening {
+
+    font-size: 16px;
+    
+  }
+
+  .raspored {
+
+    font-size: 35px;
+    font-family: sans-serif;
+  }
+
+ .izbor {
+    position:absolute;
+    margin-bottom:650px;
+    font-size: 35px;
+    font-family: sans-serif;
+ }
